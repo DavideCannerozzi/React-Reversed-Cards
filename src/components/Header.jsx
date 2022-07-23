@@ -1,11 +1,10 @@
 import React from 'react'
 import { StyleHeader } from './styles/Header.style'
 
-export default function Header() {
+export default function Header( { title }) {
   return (
     <StyleHeader>
-        <h1>Leave Your Heart In Italy</h1>
-        
+        <h1>{ title }</h1>
     </StyleHeader>
   )
 }

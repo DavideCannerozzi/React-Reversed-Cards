@@ -9,6 +9,9 @@ export const StyleCard = styled.div`
         div:first-child{
             width:40%;
         }
+        p:nth-child(3){
+            line-height:1.8;
+        }
         img{
             width:450px
         }

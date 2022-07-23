@@ -8,5 +8,4 @@ export const StyleHeader = styled.header`
     h1{
         text-align:center
     }
-
 `

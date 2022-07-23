@@ -6,7 +6,7 @@ function Card( { card }) {
     <StyleCard layout={ card.id % 2 === 0 && 'row-reverse' }>
         <div>
             <h2>{ card.name }</h2>
-            <p>Region: { card.region }</p>
+            <h3>Region: { card.region }</h3>
             <p>{ card.highlights }</p>
         </div>
         <div>
